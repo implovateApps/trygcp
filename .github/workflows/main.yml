@@ -18,5 +18,5 @@ jobs:
           workload_identity_provider: 'projects/884973118859/locations/global/workloadIdentityPools/github-pool-gcp/providers/github-provider'
           service_account: 'git-hub-service-account@modern-water-477805-e3.iam.gserviceaccount.com'
 
-      - name: 'List Buckets'
-        run: gcloud storage ls
+      - name: 'List VMs'
+        run: gcloud compute instances list
